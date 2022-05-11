@@ -1,0 +1,41 @@
+.contenedor{
+    /* viewport height */
+    height: 600px;
+    /* inline-block */
+    display: flex;
+    flex-direction: row; 
+    /* que se acomode en varias lineas */
+    /* flex-wrap: wrap; */
+
+    /* justify-content:space-around; */
+
+    align-items: center;
+
+    /* align-content: center; */
+}
+
+p{
+    height: 250px;
+    width: 150px;
+    background-color: greenyellow;
+}
+
+button{
+    height: 100px;
+    width: 80px;
+}
+
+.especial1{
+    /* order : 0 es el valor por defecto */
+    /* order: 2; */
+    background-color: red;
+    /* flex-grow: 2; */
+    align-self: flex-start;
+
+}
+
+.especial2{
+    /* order: 1; */
+    background-color: aqua;
+    align-self: flex-end;
+}
